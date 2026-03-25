@@ -1,0 +1,24 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+.env.*.local
+
+# Node modules (if added in future)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and dist
+dist/
+build/
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+*.log

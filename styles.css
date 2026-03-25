@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidepanel {
+    color: white;
+    width: 20%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 30% 60%;
+    gap: 3%;
+    background-color: #0288D1;
+}
+
+.sideTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sideTitle svg {
+    width: 20%;
+    height: auto;
+}
+
+.userNav, .utilNav {
+    
+}
+
+.userNav ul, .utilNav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 20px;
+}
